@@ -16,6 +16,16 @@
 
 	<div class="container">
 		<h1>Today's Sunrise/Sunset</h1>
+		<div class="row" style="text-align: center">
+			<div class="col-lg-6">
+				<div class="form-group">
+					<label for="exampleInputEmail1">Address, name, etc.</label>
+					<input type="text" class="form-control center" id="addressInput" aria-describedby="emailHelp" placeholder="Enter the address you would like to put in!">
+					<small id="emailHelp" class="form-text text-muted">Enter the address you would like to put in!</small>
+				</div>
+				<button onclick= "getTimes()" type="submit" class="btn btn-primary">Submit</button>
+			</div>
+		</div>
 		<div class="row" id="timeDisplay">
 			<div class="col-6">
 				<p id="sunrise">sunrise</p>
